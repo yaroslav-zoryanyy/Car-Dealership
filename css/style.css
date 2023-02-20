@@ -78,10 +78,12 @@ button{
     /* Banner */
   #banner-section{
     position: relative;
+    overflow: hidden;
     padding-bottom: 60px;
   }
   .banner{
     max-width: 475px;
+    padding-top: 45px;
   }
   .banner_header{
     font-size: 52px;
@@ -96,7 +98,47 @@ button{
   .banner-links-wrap{
     display: flex;
     align-items:center;
+    gap: 35px;
+    margin-bottom: 40px;
   }
-  .banner-btn[
-
-  ]
+  .banner-features_text{
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .banner-features_text:first-child{
+    margin-right: 40px;
+  }
+  .banner-features_text_strong{
+    margin-right: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    vertical-align: sub;
+  }
+  .banner-img{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    top: 0;
+    right: 0;
+  }
+  .banner-img::before{
+    z-index: 2;
+    position: absolute;
+    content: '';
+    width: 96%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: url(../img/car.png) no-repeat;
+  }
+  .banner-img::after{
+    z-index: 1;
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(52 52 52 / 30%);
+  }
