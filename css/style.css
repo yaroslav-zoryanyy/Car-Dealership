@@ -201,3 +201,27 @@ button{
     background: url(../img/rent_link-img.png) 50%/cover no-repeat;
     transform: translateY(-50%);
   }
+/* Services */
+#services-section{
+  padding-bottom: 120px;
+}
+.services-section_title{
+  margin-bottom: 66px;
+  text-align: left;
+}
+.services-wrap{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.services-img{
+  margin-bottom: 24px;
+}
+.services-title{
+  margin-bottom: 16px;
+  font-size:  24px;
+  line-height: 32px;
+}
+.services-text{
+  color: rgb(255 255 255 / 80%);
+}
