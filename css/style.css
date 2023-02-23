@@ -278,3 +278,7 @@ color: rgba(255 255 255 / 80% );
 .destination-link:hover{
  color: #d16105;
 }
+/* Location */
+#location-section{
+  padding-bottom: 102px;
+}
