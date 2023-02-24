@@ -67,7 +67,8 @@ button{
     align-items: center;
     font-weight: 600;
  }
- .header-logo_img{
+ .header-logo_img,
+ .foooter-about_img{
     width: 48px;
     height: 48px;
  }
@@ -281,4 +282,54 @@ color: rgba(255 255 255 / 80% );
 /* Location */
 #location-section{
   padding-bottom: 102px;
+}
+/* footer */
+#footer-section{
+  padding-top: 40px;
+  background-color: #1F1905;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.footer-logo-wrap{
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-weight: 600;
+  margin-bottom: 64px;
+}
+.footer-logo-text{
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+max-width: 235px;
+}
+.footer-nav-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px 0 auto;
+  gap: 48px;
+}
+.footer-nav_header{
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.footer-nav_item{
+  margin-bottom: 28px;
+  line-height: 20px;
+  color: rgba(255 255 255 / 80% );
+}
+.footer-nav_item:hover{
+  color: #d16105;
+}
+/* avtor */
+.avtor{
+  background-color: #EE8313;
+}
+.avtor-name{
+  text-align: center;
+  color: #fff;
 }
